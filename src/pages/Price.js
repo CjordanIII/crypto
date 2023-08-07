@@ -11,7 +11,7 @@ export default function Price (props) {
   const params = useParams()
   const {symbol} = params
   console.log(params)
-  const url = `http://rest.coinapi.io/v1/exchangerate/${symbol}/USD?apiKey=${process.env.REACT_APP_COINAPI_KEY}`
+  const url = `https://rest.coinapi.io/v1/exchangerate/${symbol}/USD?apiKey=${process.env.REACT_APP_COINAPI_KEY}`
 
   
   const getCoin = async() =>{
