@@ -43,7 +43,7 @@ export default function Price (props) {
       </div>
     )
   }
-  const loading = ()=> <img src='https://i.gifer.com/XOsX.gif'/>
+  const loading = ()=> <img src='https://i.gifer.com/XOsX.gif' alt='duckie'/>
 
  return coin && coin.rate?loaded() : loading()
 };
